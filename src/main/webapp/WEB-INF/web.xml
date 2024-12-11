@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <servlet>
+        <servlet-name>AddTariffPlanServlet</servlet-name>
+        <servlet-class>com.example.web4.AddTariffPlanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTariffPlanServlet</servlet-name>
+        <url-pattern>/addTariffPlan</url-pattern>
+    </servlet-mapping>
+    <!-- Сервлет для добавления пользователя -->
+    <servlet>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>com.example.web4.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+
+    <!-- Сервлет для обновления пользователя -->
+    <servlet>
+        <servlet-name>EditUserServlet</servlet-name>
+        <servlet-class>com.example.web4.EditUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUserServlet</servlet-name>
+        <url-pattern>/editUser</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EditTariffPlanServlet</servlet-name>
+        <servlet-class>com.example.web4.EditTariffPlanServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditTariffPlanServlet</servlet-name>
+        <url-pattern>/editTariffPlan</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
+    <!-- Сервлет для удаления пользователя -->
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>com.example.web4.DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/deleteUser</url-pattern>
+    </servlet-mapping>
+
+
+
+    <!-- Сервлет для удаления пользователя -->
+    <servlet>
+        <servlet-name>DeleteTariffPlanServlet</servlet-name>
+        <servlet-class>com.example.web4.DeleteTariffPlanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTariffPlanServlet</servlet-name>
+        <url-pattern>/deleteTariffPlan</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+
+
+
